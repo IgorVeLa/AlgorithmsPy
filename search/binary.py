@@ -1,5 +1,5 @@
 '''
-Methods to find a value using binary search algorithm
+Method to find a value using binary search algorithm using recursion
 Includes other methods such as insert and deleting values using binary search algorithm
 '''
 
@@ -24,11 +24,3 @@ def binarySearch(arry, searchValue, L, R):
     else:
         # Searches left half of the array
         return binarySearch(arry, searchValue, L, m-1)
-
-
-def binaryInsert(arry, newValue):
-    return arry
-
-
-def binaryDelete(arry, deleteValue):
-    return arry
